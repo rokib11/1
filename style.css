@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Lovestory{
+    width: 650px;
+    height: 600px;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    position: absolute;
+    box-shadow:rgba(0 0 0/10%)0 10px 50px ;
+    text-align: center;
+    pointer-events: none;
+    display: none;
+}
+.Lovestory.activeInfo{
+    pointer-events: auto;
+    display: block;
+}
+.section{
+    padding: 10px;
+}
+.option  span{
+    font-size: 20px;
+}
+ .text{
+    margin-top: 80px;
+    font-size: 20px;
+    padding: 20px;
+}
+.btn{
+    border: none;
+    outline: none;
+    margin-top: 60px;
+    background-color: #f9004d;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    color: black;
+}
+.startlovesstory{
+    width: 650px;
+    height: 600px;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    position: absolute;
+    box-shadow:rgba(0 0 0/10%)0 10px 50px ;
+    text-align: center;
+}
+.ShowNow{
+    border: none;
+    outline: none;
+    margin-top: 180px;
+    background-color: #f9004d;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+.ShowNow:hover{
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    color: black;
+}
+@media only screen and (max-width: 600px){
+    .Lovestory{
+        width: 450px;
+        height: 400px;
+        background-color: white;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 30px;
+        position: absolute;
+        box-shadow:rgba(0 0 0/10%)0 10px 50px ;
+        text-align: center;
+        pointer-events: none;
+        display: none;
+    }
+    .startlovesstory{
+        width: 450px;
+        height: 400px;
+        background-color: white;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 30px;
+        position: absolute;
+        box-shadow:rgba(0 0 0/10%)0 10px 50px ;
+        text-align: center;
+    }
+    .option  span{
+        font-size: 18px;
+    }
+     .text{
+        margin-top: 80px;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .section{
+        padding: 10px;
+        width: 350px;
+        margin: auto;
+    }
+}
